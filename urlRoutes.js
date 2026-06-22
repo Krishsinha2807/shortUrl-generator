@@ -9,18 +9,10 @@ const {
 
 }=require("../controllers/urlController");
 
-
-
-// generate url
-
 router.post(
     "/shorten",
     createShortUrl
 );
-
-
-
-// redirect
 
 router.get(
     "/:shortId",
